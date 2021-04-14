@@ -29,12 +29,12 @@ app = Flask(__name__)
 def welcome():
     return(
     """
-    Welcome to the Climate Analysis API!
-    Available Routes:
-    /api/v1.0/precipitation
-    /api/v1.0/stations
-    /api/v1.0/tobs
-    /api/v1.0/temp/start/end
+    <h2>Welcome to the Climate Analysis API!</h2>
+    <br> <b>Available Routes:</b>
+    <br>/api/v1.0/precipitation
+    <br>/api/v1.0/stations
+    <br>/api/v1.0/tobs
+    <br>/api/v1.0/temp/start/end
     """
     )
 
